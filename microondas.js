@@ -16,8 +16,6 @@
 - Se o tempo for 3x maior que o necessário para o prato, o microondas deve exibir a mensagem: “kabumm”;
 - No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!". */
 
-function nome(nome) { return nome.toLowerCase(); } 
-
 function microondas(menu, tempo) {
         switch (menu) {
         case 'pipoca':
